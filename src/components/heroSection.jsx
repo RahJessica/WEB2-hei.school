@@ -2,7 +2,7 @@ import '../App.css'
 
 function HeroSection() {
     return (
-        <div className=" h-[90vh] bg-cover bg-center mt-[-5vh] flex flex-col items-center text-center px-[30vh]"
+        <div className=" h-[90vh] bg-cover bg-center mt-[-3.2vh] flex flex-col items-center text-center px-[30vh]"
             style={{ backgroundImage: "url('https://hei.school/wp-content/uploads/2024/09/hei-banner-1.webp')", opacity: "85%", objectFit: "cover" }}>
 
             <div>
