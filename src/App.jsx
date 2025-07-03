@@ -1,10 +1,13 @@
-import { useState } from 'react'
 
 import './App.css'
 import logo from '../src/assets/photo/hei.png'
+import HeroSection from './components/heroSection.jsx'
+import { Fragment } from 'react'
+
 function NavBar() {
   return (
-    <nav className='bg-[var(--blue_color)] flex flex-row place-content-around '>
+    
+      <nav className='bg-[var(--blue_color)] flex flex-row place-content-around '>
       <div >
         <img src={logo} alt="" className='w-28' />
       </div>
@@ -18,7 +21,14 @@ function NavBar() {
       </ul>
 
     </nav>
+    
+  
+    
+    
+    
   )
 }
+
+
 
 export default NavBar
