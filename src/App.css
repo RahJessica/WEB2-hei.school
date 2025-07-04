@@ -9,6 +9,6 @@
     font-family: "Quicksand"
 }
 
-p{
+p, h3, li, button{
     font-family: Arial, Helvetica, sans-serif
 }

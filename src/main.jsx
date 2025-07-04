@@ -10,6 +10,7 @@ import SpecialitiesSection from './components/specialitiesSection.jsx'
 import AdmissionSection from './components/admissionSection.jsx'
 import PedagogySection from './components/pedagogySection.jsx'
 import UsedTechnologies from './components/usedTechnologies.jsx'
+import Footer from './components/footer.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />,
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
     <SpecialitiesSection/>,
     <AdmissionSection/>,
     <PedagogySection/>,
-    <UsedTechnologies/>
+    <UsedTechnologies/>, 
+    <Footer/>
   </StrictMode>,
 )
