@@ -6,7 +6,7 @@ function AboutSection() {
     return (
         <div className='flex flex-row justify-around text-[var(--blue_color)] py-10 px-50 gap-30'>
             <div className='w-[50vw] flex flex-row'>
-                <img src="https://hei.school/wp-content/uploads/2024/11/A-propos-left-1.webp" alt="" />
+                <img src="https://hei.school/wp-content/uploads/2024/11/A-propos-left-1.webp" alt="students_photos"/>
             </div>
             <div className='w-[50vw] '>
                 <h2 className='text-5xl font-semibold mb-3.5' >A propos de nous  </h2>

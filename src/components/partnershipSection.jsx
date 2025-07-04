@@ -2,7 +2,7 @@ import '../App.css'
 
 function PartnershipSection() {
     return (
-        <div className='flex flex-col justify-center text-center  px-70 py-20'>
+        <div className='flex flex-col justify-center text-center px-70 p-15 pb-30'>
             <h2 className='text-[var(--blue_color)] text-5xl font-semibold pb-6'>Nos partenaires</h2>
             <p className='text-[var(--blue_color)] text-lg/8'>L’employabilité de nos étudiants se base sur la pertinence  de notre programme pédagogique et de la composition de notre corps enseignant mais aussi du soutien et la collaboration des entreprises partenaires</p>
             <div className='flex flex-row gap-15 pt-15 w-[70vw] '>

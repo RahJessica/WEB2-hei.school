@@ -11,13 +11,13 @@ function HeroSection() {
 
             </div>
             <div className='flex flex-row gap-20 py-25'>
-                <button className='bg-white text-[var(--blue_color)] font-bold text-2xl px-3 py-3 rounded-sm cursor-pointer hover:opacity-90'>
+                <button className='bg-white text-[var(--blue_color)] font-bold text-xl px-8 py-3 rounded-sm cursor-pointer hover:opacity-90'>
                     Inscrivez-vous ici
                 </button>
-                <button className='bg-[var(--yellow_color)] text-white font-bold text-2xl px-3 py-3 rounded-sm cursor-pointer hover:opacity-90'>
+                <button className='bg-[var(--yellow_color)] text-white font-bold text-xl px-8 py-3 rounded-sm cursor-pointer hover:opacity-90'>
                     Emploi du temps 
                 </button> 
-                <button className='bg-[var(--blue_color)] text-white font-bold text-2xl px-3 py-3 rounded-sm cursor-pointer hover:opacity-90'>
+                <button className='bg-[var(--blue_color)] text-white font-bold text-xl px-8 py-3 rounded-sm cursor-pointer hover:opacity-90'>
                     Programme pédagogique
                 </button>
             </div>

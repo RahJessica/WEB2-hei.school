@@ -4,7 +4,7 @@ import { faFacebookF, faInstagram, faLinkedin } from '@fortawesome/free-brands-s
 
 function Footer() {
     return (
-        <div className='bg-[var(--blue_color)] flex flex-row gap-15 justify-around items-center px-30 pb-17 mt-[-5vh]'>
+        <div className='bg-[var(--blue_color)] flex flex-row gap-15 justify-around items-center px-30 pb-15 mt-[-5vh]'>
             <div className='flex flex-col gap-4 w-[15vw]'>
                 <img src="https://hei.school/wp-content/uploads/2022/09/Logo-e1662790239183.png" alt="hei_logo" className='w-[8vw] mb-3' />
                 <p className='text-white text-[2ch] text-sm/loose ml-5 mb-2'>
