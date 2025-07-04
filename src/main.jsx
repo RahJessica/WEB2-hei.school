@@ -4,10 +4,12 @@ import './index.css'
 import NavBar from './App.jsx'
 import HeroSection from './components/heroSection.jsx'
 import AboutSection from './components/aboutSection.jsx'
+import TeacherSection from './components/teacherSection.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />,
     <HeroSection/>, 
-    <AboutSection/>
+    <AboutSection/>, 
+    <TeacherSection/>
   </StrictMode>,
 )
