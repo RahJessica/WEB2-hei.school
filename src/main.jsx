@@ -9,19 +9,22 @@ import CarrersSection from './components/carrersSection.jsx'
 import SpecialitiesSection from './components/specialitiesSection.jsx'
 import AdmissionSection from './components/admissionSection.jsx'
 import PedagogySection from './components/pedagogySection.jsx'
+import PartnershipSection from './components/partnershipSection.jsx'
 import UsedTechnologies from './components/usedTechnologies.jsx'
 import Footer from './components/footer.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />,
-    <HeroSection/>, 
-    <AboutSection/>, 
-    <TeacherSection/>, 
-    <CarrersSection/>,
-    <SpecialitiesSection/>,
-    <AdmissionSection/>,
-    <PedagogySection/>,
-    <UsedTechnologies/>, 
+    <HeroSection />,
+    <AboutSection />,
+    <TeacherSection />,
+    <CarrersSection />,
+    <SpecialitiesSection />,
+    <AdmissionSection />,
+    <PedagogySection />,
+    <UsedTechnologies />,
+    <PartnershipSection />
     <Footer/>
   </StrictMode>,
 )
