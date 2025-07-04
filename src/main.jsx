@@ -6,12 +6,14 @@ import HeroSection from './components/heroSection.jsx'
 import AboutSection from './components/aboutSection.jsx'
 import TeacherSection from './components/teacherSection.jsx'
 import CarrersSection from './components/carrersSection.jsx'
+import SpecialitiesSection from './components/specialitiesSection.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />,
     <HeroSection/>, 
     <AboutSection/>, 
     <TeacherSection/>, 
-    <CarrersSection/>
+    <CarrersSection/>,
+    <SpecialitiesSection/>
   </StrictMode>,
 )
