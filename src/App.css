@@ -1,0 +1,14 @@
+@import "tailwindcss";
+:root{
+    --blue_color:#001948;
+    --yellow_color: #DFA408;
+    font-family:"Quicksand", sans-serif ;
+}
+
+*{
+    font-family: "Quicksand"
+}
+
+p, h3, li, button{
+    font-family: Arial, Helvetica, sans-serif
+}
