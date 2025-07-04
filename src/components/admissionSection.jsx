@@ -3,7 +3,7 @@ import '../App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function AdmissionSection(){
     return(
-        <div className='bg-indigo-400 flex flex-col px-50 py-20'>
+        <div className='bg-indigo-400 flex flex-col px-50 py-20 mt-[-3.2vh]'>
             <h2 className='text-white font-semibold text-5xl items-center text-center mb-5'>Admission</h2>
             <p className='text-center text-lg/10 text-white mb-10'>Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se fait par test de niveau : <br />une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D. </p>
         <div className='flex flex-row'>
