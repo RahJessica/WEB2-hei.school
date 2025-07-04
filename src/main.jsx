@@ -8,6 +8,7 @@ import TeacherSection from './components/teacherSection.jsx'
 import CarrersSection from './components/carrersSection.jsx'
 import SpecialitiesSection from './components/specialitiesSection.jsx'
 import AdmissionSection from './components/admissionSection.jsx'
+import PedagogySection from './components/pedagogySection.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />,
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
     <TeacherSection/>, 
     <CarrersSection/>,
     <SpecialitiesSection/>,
-    <AdmissionSection/>
+    <AdmissionSection/>,
+    <PedagogySection/>
   </StrictMode>,
 )
